@@ -20,11 +20,30 @@ img {
     margin : 88px auto;
 }
 
-.headline {
+#inicio .headline {
+    margin-bottom: 8px;
+}
+
+.headline{
     color: #E1624F;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+main img {
+    border-radius: 28px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+#inicio h1{
+    margin-bottom: 40px;
 }
 
 h1 {

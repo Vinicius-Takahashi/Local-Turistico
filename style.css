@@ -1,49 +1,30 @@
 * {
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color : #F5F4F0;
-    color : #1B1B1B; 
+    background-color: #F5F4F0;
+    color: #1B1B1B;
     font-family: 'Open Sans', sans-serif;
 }
 
 img {
-    max-width : 100%;
-    display : block;
+    max-width: 100%;
+    display: block;
 }
 
 #page {
-    width : 1120px;
-    margin : 88px auto;
+    width: 1120px;
+    margin: 88px auto;
 }
 
-#inicio .headline {
-    margin-bottom: 8px;
-}
-
-.headline{
+.headline {
     color: #E1624F;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-}
-
-main img {
-    border-radius: 28px;
-}
-
-.description {
-    font-size: 16px;
-    line-height: normal;
-    font-style: italic;
-    text-align: center;
-}
-
-#inicio h1{
-    margin-bottom: 40px;
 }
 
 h1 {
@@ -68,4 +49,45 @@ p {
     font-size: 16px;
     line-height: 22px;
     color: #333333;
+}
+
+main img {
+    border-radius: 28px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #D9D9D9;
+    margin: 40px 0;
+}
+
+.divider-large {
+    margin: 40px 0 64px;
+}
+
+#inicio .headline {
+    margin-bottom: 8px;
+}
+
+#inicio h1 {
+    margin-bottom: 40px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+.destinations .headline {
+    margin-bottom: 2px;
+}
+
+.destinations h2 {
+    margin-bottom: 8px;
+}
+
+.destination {
+    margin-top: 64px;
 }

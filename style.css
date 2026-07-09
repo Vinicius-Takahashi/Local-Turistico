@@ -139,8 +139,40 @@ main img {
 
 .learn-more {
     display: block;
-    margin-top: 8px;
+    width: fit-content;
+    margin: 12px auto 0;
+    padding: 8px 16px;
     color: #0B3D91;
     font-weight: 700;
     text-decoration: none;
+    border: 1px solid #0B3D91;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.learn-more:hover,
+.learn-more:focus {
+    background-color: #0B3D91;
+    color: #FFFFFF;
+}
+
+.conclusion {
+    text-align: center;
+}
+
+footer {
+    margin-top: 64px;
+    text-align: center;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+footer img {
+    width: 16px;
+    height: 16px;
 }

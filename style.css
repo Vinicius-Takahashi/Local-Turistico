@@ -91,3 +91,42 @@ main img {
 .destination {
     margin-top: 64px;
 }
+
+.destination h3 {
+    margin-left: 8px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.good-for {
+    margin-top: 24px;
+    font-weight: 700;
+}
+
+.categories li {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 700;
+}
+
+.categories li::before {
+    content: "•";
+    color: #1B1B1B;
+}
+
+.category-blue {
+    color: #0C51A7;
+}
+
+.category-purple {
+    color: #591B98;
+}
+
+.category-pink {
+    color: #E5245E;
+}
+
+.category-orange {
+    color: #E95E10;
+}

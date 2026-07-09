@@ -103,6 +103,12 @@ main img {
     font-weight: 700;
 }
 
+.categories {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .categories li {
     display: flex;
     align-items: center;
@@ -129,4 +135,12 @@ main img {
 
 .category-orange {
     color: #E95E10;
+}
+
+.learn-more {
+    display: block;
+    margin-top: 8px;
+    color: #0B3D91;
+    font-weight: 700;
+    text-decoration: none;
 }
